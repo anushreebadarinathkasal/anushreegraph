@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+</head>
+<body>
+     <h1>Anushree Badarinath Kasal</h1>
+     <h1>1001624311</h1>
+
+<h3>mag display based on oper</h3>
+<p>{{ count }}</p>
+<p>{{ kmeansCentroid  }}</p>
+
+{% for rows in data %}
+<table border=1>
+<tr>
+     <p>{{ rows["maxmagnitude"] }}</p>
+    <p>{{ rows["numberquakes"] }}</p>
+
+
+</table>
+{% endfor %}
+
+</body>
+</html>
